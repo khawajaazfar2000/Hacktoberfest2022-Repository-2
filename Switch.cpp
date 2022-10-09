@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 	long digit;
-	cout<<"Entre digit=";
+	cout<<"Enter digit=";
 	cin>>digit;
 	
 	long A;
@@ -22,32 +22,48 @@ int main()
 	cout<<"Entre value of D=";
 	cin>>D;
 	
+	long E;
+	cout<<"Entre value of E=";
+	cin>>E;
+
+	long F;
+	cout<<"Entre value of F=";
+	cin>>F;
+
+	long G;
+	cout<<"Entre value of G=";
+	cin>>G;
 	switch(digit)
 	{
-		case 6:
-			cout<<"Value is=",  cout<<A ;
-		break;	
+		
 		
 		case 0:
-			cout<<"Valuse is=", cout<<C;
+			cout<<"Value is=", cout<<C;
 		break;
 		
 		case 2 :
-			cout<<"Valuse is=", cout<<C;
+			cout<<"Value is=", cout<<C;
 		break;
 		
 		case 3 :
-			cout<<"Valuse is=", cout<<C;
+			cout<<"Value is=", cout<<C;
 		break;
 		
 		case 4:
-			cout<<"Valuse is=", cout<<B;
+			cout<<"Value is=", cout<<B;
 		break;
 		
 		case 5 :
-			cout<<"Valuse is=", cout<<B;
+			cout<<"Value is=", cout<<B;
 		break;	
 		
+		case 6:
+			cout<<"Value is=",  cout<<A ;
+		break;	
+
+		case 7:
+			cout<<"Value is=",  cout<<E;
+		break;	
 		
 		default:
 		cout<<"Valuse is=", cout<<D;
