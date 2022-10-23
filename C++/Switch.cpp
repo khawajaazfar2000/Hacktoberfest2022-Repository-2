@@ -33,6 +33,10 @@ int main()
 	long G;
 	cout<<"Entre value of G=";
 	cin>>G;
+	
+	long H;
+	cout<<"Entre value of H=";
+	cin>>H;
 	switch(digit)
 	{
 		
@@ -63,6 +67,9 @@ int main()
 
 		case 7:
 			cout<<"Value is=",  cout<<E;
+			
+		case 8:
+			cout<<"Value is=",  cout<<F;
 		break;	
 		
 		default:
